@@ -58,7 +58,7 @@ add_service_files(
   FILES
   PlannerUpdate.srv
   ClutterInfo.srv
-  ClutterPlanner.srv
+  ClutterPlannerSrv.srv
 )
 
 ## Generate actions in the 'action' folder
