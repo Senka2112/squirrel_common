@@ -42,6 +42,7 @@ add_service_files(
   FILES
   GraspImport.srv
   SoftHandGrasp.srv
+  GetObjectPositions.srv
 )
 
 
