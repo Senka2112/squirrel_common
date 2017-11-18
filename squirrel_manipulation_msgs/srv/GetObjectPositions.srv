@@ -1,0 +1,5 @@
+---
+string[] objectids 	            # object names ids
+geometry_msgs/Pose[] objectposes    # poses of the ceneters of the objects
+float32[] diameters                 # corresponding diamteres for the objects
+
