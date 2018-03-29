@@ -11,5 +11,8 @@ Int32 row
 ---
 #output
 bool finished
+# location of value of interest
 Int32[] rows
 Int32[] columns
+# weights defining importance of facts
+float64 priority
