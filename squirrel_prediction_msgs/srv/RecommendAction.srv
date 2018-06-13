@@ -6,13 +6,15 @@ string input_file
 # number of predicates
 int32 number_of_columns
 # location of value of interest
-Int32 column
-Int32 row
+int32 column
+int32 row
+#prediction for specific action (true) or for complete planning state (false
+bool specific
 ---
 #output
 bool finished
 # location of value of interest
-Int32[] rows
-Int32[] columns
+int32 row
+int32 column
 # weights defining importance of facts
-float64 priority
+#float64 priority
